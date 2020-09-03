@@ -4,6 +4,7 @@ import {Header} from './components/Header/Header'
 import {Main} from './components/Main/Main'
 import {Skills} from './components/Skills/Skills'
 import {Works} from './components/Works/Works'
+import {Banner} from './components/Banner/Banner'
 
 function App() {
    return (
@@ -12,6 +13,7 @@ function App() {
          <Main/>
          <Skills/>
          <Works/>
+         <Banner/>
       </div>
    )
 }

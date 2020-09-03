@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Works.module.scss'
-import {Work} from './Work';
+import {Work} from './Work'
 
 type WorksPropsType = {}
 
