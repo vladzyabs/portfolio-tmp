@@ -1,0 +1,39 @@
+@import "../style/container";
+
+.header {
+  background: #fff161;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  .container {
+    @extend %container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  .link {
+    color: #111111;
+    text-decoration: none;
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
