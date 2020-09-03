@@ -1,0 +1,13 @@
+@import "../style/container";
+
+.footer {
+  background: #f7ff80;
+  padding: 15px 0;
+}
+
+.container {
+  @extend %container;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
