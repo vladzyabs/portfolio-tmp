@@ -1,0 +1,37 @@
+@import "../style/container";
+
+.contacts {
+  background: #4df8fd;
+  padding: 15px 0;
+
+  & > h2 {
+    text-align: center;
+  }
+}
+
+.container {
+  @extend %container;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactsForm {
+  padding: 15px 15px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  input {
+    margin-bottom: 15px
+  }
+
+  label {
+    margin: 0 auto 0 0
+  }
+
+  textarea {
+    margin-bottom: 15px
+  }
+}
